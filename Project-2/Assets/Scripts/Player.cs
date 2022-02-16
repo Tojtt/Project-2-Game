@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
 {
     #region Player_variables
     public bool hasTreasure;
+    public float size;
 	#endregion
 
 	#region Movement_variables
@@ -72,7 +73,7 @@ public class Player : MonoBehaviour
     #endregion
 
     #region Misc_funcs
-	private void IncreaseSize()
+	public void IncreaseSize()
     {
 		Vector3 original = this.transform.localScale;
 		this.transform.localScale = new Vector3(original.x + 1, original.y + 1, original.z);
