@@ -77,6 +77,7 @@ public class Player : MonoBehaviour
     {
 		Vector3 original = this.transform.localScale;
 		this.transform.localScale = new Vector3(original.x + 1, original.y + 1, original.z);
+		size += 1;
 	}
 
     #endregion
