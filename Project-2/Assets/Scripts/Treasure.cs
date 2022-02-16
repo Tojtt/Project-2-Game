@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class Treasure : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.transform.CompareTag("Player"))
+        {
+            collision.transform.GetComponent<Player>().hasTreasure = true;
+            Destroy(this.gameObject);
+            Debug.Log("Got treasure");
+        }
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     #region Player_variables
-    private bool hasTreasure;
+    public bool hasTreasure;
     public int size;
 	#endregion
 
@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 	public float movespeed;
 	float x_input;
 	float y_input;
+	Vector2 curDir;
 	#endregion
 
 	#region Physics_components
@@ -42,22 +43,22 @@ public class Player : MonoBehaviour
 		if (x_input > 0)
 		{
 			PlayerRB.velocity = Vector2.right * movespeed;
-			//currDirection = Vector2.right;
+			curDir = Vector2.right;
 		}
 		else if (x_input < 0)
 		{
 			PlayerRB.velocity = Vector2.left * movespeed;
-			//currDirection = Vector2.left;
+			curDir = Vector2.left;
 		}
 		else if (y_input > 0)
 		{
 			PlayerRB.velocity = Vector2.up * movespeed;
-			//currDirection = Vector2.up;
+			curDir = Vector2.up;
 		}
 		else if (y_input < 0)
 		{
 			PlayerRB.velocity = Vector2.down * movespeed;
-			//currDirection = Vector2.down;
+			curDir = Vector2.down;
 		}
 		else
 		{
@@ -69,5 +70,6 @@ public class Player : MonoBehaviour
 		//anim.SetFloat("DirY", currDirection.y);
 	}
 
-	#endregion
+    #endregion
+
 }
