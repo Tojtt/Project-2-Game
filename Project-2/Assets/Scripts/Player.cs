@@ -6,7 +6,6 @@ public class Player : MonoBehaviour
 {
     #region Player_variables
     public bool hasTreasure;
-    public int size;
 	#endregion
 
 	#region Movement_variables
@@ -68,6 +67,15 @@ public class Player : MonoBehaviour
 
 		//anim.SetFloat("DirX", currDirection.x);
 		//anim.SetFloat("DirY", currDirection.y);
+	}
+
+    #endregion
+
+    #region Misc_funcs
+	private void IncreaseSize()
+    {
+		Vector3 original = this.transform.localScale;
+		this.transform.localScale = new Vector3(original.x + 1, original.y + 1, original.z);
 	}
 
     #endregion
