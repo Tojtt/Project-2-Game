@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -85,6 +86,7 @@ public class Enemy : MonoBehaviour
             if (size > playerSize)
             {
                 Destroy(collision.gameObject);
+                SceneManager.LoadScene("Game Over");
                 Debug.Log("Game Over! Good Luck Next Time!");
         
             } else if (size < playerSize)
