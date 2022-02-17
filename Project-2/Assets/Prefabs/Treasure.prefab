@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4210416275833183650}
   - component: {fileID: 4210416275833183653}
   - component: {fileID: 4210416275833183648}
-  - component: {fileID: 577186520}
+  - component: {fileID: 5486309594691014775}
   m_Layer: 0
   m_Name: Treasure
   m_TagString: Treasure
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.8396226, g: 0.1544589, b: 0.1544589, a: 1}
+  m_Sprite: {fileID: 21300000, guid: d56cf40abeb50da42848c3dec8214eea, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca71b264d7c04594a76bade6bb56062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!61 &577186520
-BoxCollider2D:
+--- !u!60 &5486309594691014775
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -136,12 +136,18 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 2.56, y: 2.56}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.82, y: 1.28}
+      - {x: -0.97999996, y: 0.56}
+      - {x: -0.97999996, y: 0.16}
+      - {x: -0.90999997, y: -0.74}
+      - {x: 0.97999996, y: -0.74}
+      - {x: 0.97999996, y: 0.85999995}
+      - {x: 0.82, y: 1.28}
