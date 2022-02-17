@@ -76,7 +76,7 @@ public class Enemy : MonoBehaviour
 
     #region Collision_functions
     
-    // Raycasts box for player, casus damage, spawns explosion prefab
+    // Collides with Player, if bigger than GameOver for player, if smaller, then get destroyed
     private void OnCollisionEnter2D(Collision2D collision) 
     {
         if(collision.transform.CompareTag("Player"))
@@ -87,8 +87,7 @@ public class Enemy : MonoBehaviour
             {
                 Destroy(collision.gameObject);
                 SceneManager.LoadScene("Game Over");
-                Debug.Log("Game Over! Good Luck Next Time!");
-        
+                        
             } else if (size < playerSize)
             {
                 Debug.Log("Player Size is " + playerSize);
