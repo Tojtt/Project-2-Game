@@ -213,3 +213,74 @@ Received Import Request.
   path: Assets/Scenes/Main Scene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Main Scene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f623c6a5fa8f6b3f95f0165940e4b5') in 0.008747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 687.036055 seconds.
+  path: Assets/Sprites/New Piskel.png
+  artifactKey: Guid(447d0991450d24242a9fdd6b761a8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/New Piskel.png using Guid(447d0991450d24242a9fdd6b761a8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2959f89171fef480801550241ccfaec') in 0.086770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.069128 seconds.
+  path: Assets/Sprites/Seaweed.png
+  artifactKey: Guid(447d0991450d24242a9fdd6b761a8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Seaweed.png using Guid(447d0991450d24242a9fdd6b761a8c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bbc8677d8c77e756fa050aef9e4d66') in 0.019626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.857054 seconds.
+  path: Assets/Prefabs/Obstacle.prefab
+  artifactKey: Guid(30382ff68967844ecabe166e22ce3b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle.prefab using Guid(30382ff68967844ecabe166e22ce3b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ef38884097b57728d3c1874845f077') in 0.043701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.218017 seconds.
+  path: Assets/Prefabs/Obstacle.prefab
+  artifactKey: Guid(30382ff68967844ecabe166e22ce3b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Obstacle.prefab using Guid(30382ff68967844ecabe166e22ce3b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba6671f25824940ef5359c582766a2e') in 0.018094 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003902 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.2 MB.
+System memory in use after: 132.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 2.834200 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.131000 ms MarkObjects: 2.432600 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001925 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.097 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 132.4 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3894.
+Total: 3.871400 ms (FindLiveObjects: 0.272400 ms CreateObjectMapping: 0.132400 ms MarkObjects: 3.424600 ms  DeleteObjects: 0.040300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
