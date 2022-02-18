@@ -1,0 +1,126 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.7f1 (d91830b65d9b) revision 14227504'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.434; Version 2009; 64bit' Language: 'en' Physical Memory: 16021 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Game/Project-2-Game/Project-2
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+60217
+Successfully changed project path to: C:/Game/Project-2-Game/Project-2
+C:/Game/Project-2-Game/Project-2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 122.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.7f1 (d91830b65d9b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game/Project-2-Game/Project-2/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8010 MB
+    Driver:   30.0.100.9864
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001424 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002589 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 112.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3381 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 128.0 MB.
+System memory in use after: 128.2 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3840.
+Total: 2.640200 ms (FindLiveObjects: 0.222800 ms CreateObjectMapping: 0.122900 ms MarkObjects: 2.227800 ms  DeleteObjects: 0.065400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/You Win 1.unity
+  artifactKey: Guid(cdbcaa556d140f1449acde5b899954dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/You Win 1.unity using Guid(cdbcaa556d140f1449acde5b899954dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c685314b23c6aa2dd53f8deb44b9c167') in 0.019373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Scenes/HoangScene.unity
+  artifactKey: Guid(7a1f31ca93143e1438d65cf9f9c05891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HoangScene.unity using Guid(7a1f31ca93143e1438d65cf9f9c05891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7c726743bc3edb0cfb078d323af531') in 0.011934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.816221 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(cdbcaa556d140f1449acde5b899954dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(cdbcaa556d140f1449acde5b899954dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b2926f7c728eb41c287e122fc8875a') in 0.012982 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game\Project-2-Game\Project-2\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.818 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3371 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3844.
+Total: 3.558700 ms (FindLiveObjects: 0.428800 ms CreateObjectMapping: 0.270200 ms MarkObjects: 2.828900 ms  DeleteObjects: 0.028800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.022127 seconds.
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(353ad19489ffe1a4a86e6068216fb237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(353ad19489ffe1a4a86e6068216fb237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60514e77ee157a2696b8a9687b57c4c') in 0.029069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.342783 seconds.
+  path: Assets/Scripts/GameOverMenuController.cs
+  artifactKey: Guid(b8de92fa70fcccb4a9a64567c0b7e9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameOverMenuController.cs using Guid(b8de92fa70fcccb4a9a64567c0b7e9ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '984ec2e23d93232162ac8471903658c6') in 0.011484 seconds 
